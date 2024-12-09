@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafe Website</title>
+   
+    <link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+  
+  <link rel="stylesheet" href="styles.css">
+   
+</head>
+<body>
+    
+    <header>
+        <img src="logo" width="100" height="auto" style="margin-right: 10px;">
+      <a class="logo" href="#"> Frappey Cafe</a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+ 
+        <ul class="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="services.html">Service</a></li>
+            <li><a href="contact.html">Contact</a></li>
+           
+            <div class="bx bx-moon" id="darkmode"></div>
+        </ul>
+    </header>
+    <br>
+    <div class="chat-container">
+        <div class="chat-header">
+            <h2>Frappey Cafe</h2>
+        </div>
+        <div class="chat-box" id="chat-box">
+           
+        </div>
+        <div class="chat-input">
+            <input type="text" id="user-input" placeholder="Type a message...">
+            <button onclick="sendMessage()">Send</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
